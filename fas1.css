@@ -1,0 +1,454 @@
+* { 
+ 
+    list-style: none; 
+    box-sizing: border-box; 
+    } 
+    /* Fashop head */
+    div.fashop{ 
+   border: 2px solid #e6e6e6; 
+    width: 100%; 
+    background-color: #f5f5f6; 
+    border-radius: 7px; 
+    color: rgb(180, 173, 173); 
+    } 
+    img.fashop{ 
+    width:15%; 
+    /* border: 2px solid red; */
+    margin: 14px 16px 16px 355px; 
+    } 
+    div.login{ 
+    /* border: 2px solid red; */
+    margin: 30px 21px 11px 33px; 
+    float: right; 
+    } 
+    button.login{ 
+    border: 4px solid #237a8d; 
+    background-color: transparent; 
+    padding: 6px; 
+    width: 100px; 
+    font-family: 'Readex Pro', sans-serif; 
+    margin: -4px 0px 0px 0px; 
+    color: rgb(2, 2, 2); 
+    border-radius: 5px; 
+    font-size: 15px; 
+    } 
+    button.login:hover{ 
+    cursor: pointer; 
+    background: linear-gradient(#2193b0 , #6dd5ed); 
+    border: 1px solid white; 
+    } 
+    
+    /* SOCIAL MEDIA */
+    div.socialmedia{ 
+    /* border: 2px solid red; */
+    float: left; 
+    
+    margin: 18px 0px 6px 3px; 
+    /* margin: 16px 16px 16px 324px; */
+    } 
+    ul.socialmedia{ 
+    text-decoration: none; 
+    display: flex; 
+    padding:0px 0px 0px 0px; 
+    } 
+    a.socialmedia{ 
+    padding: 12px; 
+    /* margin: 0px 0px 0px 0px; */
+    } 
+    
+    
+    /* LOGO DESIGN */
+    .logo { 
+    border: 2px solid transparent; 
+    width: 5%; 
+    margin: 2px; 
+    border-radius: 47px; 
+    } 
+    /* NAVIGATION BAR */
+    nav { 
+    
+    border: 2px solid #ffffff; 
+    background-color: #ffffff; 
+    border-radius: 6px; 
+    border-bottom: rgb(218, 218, 218) !important; 
+    
+    } 
+    nav { 
+    display: flex; 
+    border: 2px solid rgb(240, 240, 240); 
+    box-shadow: rgb(134, 175, 134); 
+    } 
+    ul { 
+    display: flex; 
+    } 
+    a.menu { 
+    padding: 26px; 
+    margin: -8px; 
+    font-size: 19px; 
+    color: black; 
+    font-weight: 10px !important; 
+    font-family: 'Baloo Bhai 2', cursive; 
+    text-decoration: none; 
+    } 
+    a.menu:hover { 
+    color: tomato; 
+    } 
+    input.search { 
+    padding: 8px; 
+    border: 1px solid rgb(10, 104, 136); 
+    margin: 12px; 
+    border: 1px transparent; 
+    width: 24%; 
+    border-radius: 7px; 
+    font-size: 18px; 
+    background: #f5f5f6; 
+    } 
+    span { 
+    display: flex; 
+    padding: 10px; 
+    margin: 0px 0px 0px 0px; 
+    } 
+    /* END OF NAVGATION BAR */
+    
+    
+    /* OFFER PANEL */
+    div.offer{ 
+    background-color: black; 
+    color: #ffffff; 
+    padding: 6px; 
+    text-align: center; 
+    font-size: 13px; 
+    } 
+    #shop{ 
+    color: rgb(250, 250, 53) !important; 
+    padding-left: 5px; 
+    } 
+    /* ARRIVALS SALE */
+    span.middle{ 
+    border: 1px solid rgb(250, 250, 250); 
+    padding: 1px; 
+    margin: 0px; 
+    width: 100%; 
+    display: flex; 
+    background-color:rgb(240 240 240); 
+    } 
+    
+    div.arrival{ 
+    /* border: 2px solid red; */
+    padding: 183px 200px 22px 199px; 
+    margin: 0px 0px 0px 0px; 
+    font-size: 27px; 
+    font-family: 'Sora', sans-serif; 
+    } 
+    span.collection{ 
+    font-size: 14px; 
+    padding: 2px 1px 0px 22px; 
+    font-family: 'Ubuntu', sans-serif; 
+    } 
+    button.shopnow{ 
+    padding: 14px; 
+    margin: 13px 0px 0px 44px; 
+    border-radius: 6px; 
+    border: 4px solid #0075ad; 
+    width: 135px; 
+    } 
+    button.shopnow:hover{ 
+    cursor: pointer; 
+    border: 2px solid; 
+    background: linear-gradient(#43cea2 , #185a9d); 
+    border-color: rgb(255, 252, 252); 
+    transition-duration: .3s; 
+    } 
+    a.shop{ 
+    text-decoration: none; 
+    font-family: 'Baloo Bhai 2', cursive; 
+    color: black; 
+    font-weight: 10px !important; 
+    font-size: 17px; 
+    } 
+    /* BODY */
+    .box1, .box2, .box3, .box4{ 
+    /* border: 2px solid red; */
+    float: left; 
+    width: 233px; 
+    padding: 9px 0px 6px 8px; 
+    margin: 10px 53px 15px 28px; 
+    border-left: 4px solid tomato; 
+    border-right: 4px solid tomato; 
+    border-radius: 4px; 
+    } 
+    div.tab1{ 
+    border: 2px solid rgb(214 214 214); 
+    width: 100%; 
+    display: flex; 
+    border-radius: 5px; 
+    
+    } 
+    .box11, .box22, .box33, .box44{ 
+    border: 1px solid transparent; 
+    width: 158px; 
+    margin: -43px 19px 5px 42px; 
+    text-align: left; 
+    padding: 0px 0px 0px 12px; 
+    font-size: 14px; 
+    font-family: 'Sora' !important; 
+    } 
+    /* Shop by category */
+    div.category1{ 
+    border: 2px solid rgb(214 214 214); 
+    display: flex; 
+    width: 100%; 
+    float: left; 
+    background-color: #e1f6ff; 
+    /* border-radius: 5px; */
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px ; 
+    } 
+    div.category2{ 
+    border: 2px solid rgb(214 214 214); 
+    width: 100%; 
+    display: flex; 
+    float: left; 
+    background-color: #e1f6ff; 
+    border-radius: 5px; 
+    } 
+    img.cat{ 
+    width: 16.5%; 
+    margin: 12px 48px 12px 0px; 
+    } 
+    img.cat:hover{ 
+    border: 4px solid rgb(125, 185, 233); 
+    cursor: pointer; 
+    
+    } 
+    H1.category{ 
+    text-align: center; 
+    color: tomato; 
+    font-family: 'Bebas Neue', cursive; 
+    /* font-family: 'Sora', sans-serif; */
+    
+    } 
+    h1.category:hover{ 
+    font-size: 32.5px; 
+    color: rgb(92, 92, 230); 
+    cursor: pointer; 
+    } 
+    /* BEST DEALS */
+    div.deals{ 
+    border: 2px solid rgb(219, 219, 219); 
+    width: 100%; 
+    display: flex; 
+    } 
+    .offer1, .offer2, .offer3, .offer4, .offer5{ 
+    /* border: 2px solid red; */
+    float: left; 
+    padding: 3px;} 
+    img.offer{ 
+    width: 100%; 
+    } 
+    img.offer:hover{ 
+    border: 1.8px solid rgb(12, 12, 12); 
+    cursor: pointer; 
+    } 
+    span.deals{ 
+    border: 1px solid rgb(214, 214, 214); 
+    font-size: 30px; 
+    text-align: center !important; 
+    padding:58px 4px 50px 27px; 
+    font-family: 'Sora', sans-serif !important; 
+    background: linear-gradient(#77A1D3,#79CBCA,#E684AE); 
+   border-top-left-radius: 5px; 
+   border-top-right-radius: 5px ; 
+    } 
+    /* AvenirNextLTPro-Heavy,sans-serif; */
+    /* OUR CUSTOMER */
+    div.cust{ 
+    /* border: 2px solid red; */
+    width: 100%; 
+    display: flex; 
+    margin-top: 6px; 
+    background-color: #16120f; 
+    } 
+    div.custimg{ 
+    /* border: 2px solid red; */
+    width: 65%; 
+    
+    } 
+    div.cust1
+    { 
+    /* border: 2px solid red; */
+    height: fit-content; 
+    float: right; 
+    text-align: center; 
+    font-size: 44px; 
+    color: white; 
+    font-family: 'Pacifico', cursive; 
+    margin:144px 0px 6px -62px; 
+    } 
+    
+    div.cust2{ 
+    /* border: 2px solid red; */
+    height: fit-content; 
+    float: right; 
+    font-size: 28px; 
+    color: white; 
+    width: 345px; 
+    text-align: center; 
+    margin: 0px 46px 24px -2px; 
+    font-family: 'sora'; 
+    } 
+    b{ 
+    color: red; 
+    } 
+    img.cust{ 
+    width: 82%; 
+    } 
+    div.cust11{ 
+    /* border: 2px solid red; */
+    margin: 25px 0px 24px 47px; 
+    display: grid; 
+    } 
+    
+    
+    /* Feedback */
+    span.feed{ 
+    /* border: 2px solid red; */
+    padding: 5px; 
+    font-size: 25px; 
+    text-align: center; 
+    margin-top: 10px; 
+    padding: 7px 0px 0px 480px; 
+    background-color:rgb(240 247 255) ; 
+    font-family: 'Bakbak One', cursive; 
+    } 
+    div.feedback{ 
+    /* border: 2px solid red ; */
+    display: flex; 
+    background-color: rgb(240 247 255); 
+    } 
+    div.feedimg{ 
+    /* border: 2px solid red; */
+    width: 35%; 
+    background-color: rgb(240 247 255); 
+    } 
+    img.feed{ 
+    width: 95%; 
+    background-color: rgb(240 248 255); 
+    } 
+    div.input{ 
+    /* border: 2px solid red; */
+    width: 60%; 
+    float: left; 
+    
+    } 
+    input.feed{ 
+    padding: 10px; 
+    width: 48%; 
+    margin: 20px 0px 0px 222px; 
+    font-size: 20px; 
+    border-radius: 5px; 
+    background-color: rgb(240 248 255); 
+    } 
+    select{ 
+    padding: 10px; 
+    width: 48%; border: 2px solid black; 
+    margin: 10px; 
+    margin: 20px 0px 0px 222px; 
+    font-size: 20px; 
+    border-radius: 5px; 
+    background-color: rgb(240, 247, 255); 
+    } 
+    input.bigtext{ 
+    width: 48%; 
+    height: 26%; 
+    margin: 10px 0px 0px 222px; 
+    padding: 0px; 
+    text-align: start; 
+    font-size:20px ; 
+    background-color: rgb(240 247 255); 
+    border-radius: 6px; 
+    } 
+    button.feed{ 
+    width: 26%; 
+    padding: 5px; 
+    font-size: 25px; 
+    margin: 35px 0px 0px 301px; 
+    background: linear-gradient(#2193b0 ,#6dd5ed); 
+    border-radius: 25px; 
+    border: yellow; 
+    } 
+    div.bottom{ 
+    border: 2px solid transparent; 
+    display: flex; 
+    background: #777777; 
+    height: 332px; 
+    padding-top: 66px; 
+    } 
+    div.bottomlist{ 
+    border: 1px solid transparent; 
+    } 
+    ul.bottomlist{ 
+    display: list-item; 
+    } 
+    a.bottom{ 
+    text-decoration: none; 
+    color: white; 
+    padding: 0px 0px 0px 0px; 
+    font-size: 20px; 
+    font-family: 'Baloo Bhai 2', cursive; 
+    } 
+    a.bottom:hover{ 
+    text-decoration: underline; 
+    color: tomato; 
+    font-size: 20px; } 
+    span.bottom{ 
+    padding: 0px 8px 13px 0px; 
+    color: white; 
+    font-size: 20px; 
+    font-family: 'Baloo Bhai 2', cursive; 
+    }P 
+    div.links{ 
+    /* border: 2px solid red; */
+    display: list-item; 
+    
+    } 
+    ul.links{ 
+    display: list-item; 
+    } 
+    a.links{ 
+    text-decoration: none; 
+    padding: 0px 0px 0px 0px; 
+    color: white; 
+    font-size: 20px; 
+    font-family: 'Baloo Bhai 2', cursive; 
+    } a.links:hover{ 
+    text-decoration: underline; 
+    color: tomato; 
+    } 
+    span.links{ 
+    padding: 19px 0px 0px 29px; 
+    color: white; 
+    font-size: 20px; 
+    font-family: 'Baloo Bhai 2', cursive; 
+    } 
+    div.app{ 
+    /* border: 2px solid red; */
+    color: white; 
+    padding: 18px 2px 0px 23px; 
+    font-family: 'Baloo Bhai 2', cursive; 
+    } 
+    img.app{ 
+    width: 29%; 
+    padding: 7px 0px 0px 0px; 
+    } 
+    
+    /* FOOTER */
+    Footer{ 
+    
+    padding: 21px 0px 26px 0px; 
+    text-align: center; 
+    color: black; 
+    background-color: #777777; 
+    font-size: 22px; 
+    font-family: 'Baloo Bhai 2', cursive; 
+    }
